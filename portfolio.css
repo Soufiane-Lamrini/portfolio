@@ -80,7 +80,7 @@ a {
     color: transparent;
     -webkit-text-stroke: #7cf03d .7px;
     animation: display-text 16s linear infinite;
-    animation-delay: calc(-4s * var(--i)) ;
+    animation-delay: calc(-5s * var(--i)) ;
 }
 @keyframes display-text {
     25%,100% { 
@@ -95,7 +95,7 @@ a {
     color: #7cf03d;
     white-space: nowrap;
     overflow: hidden;
-    animation: fill-text 4s linear infinite;
+    animation: fill-text 5s linear infinite;
 }
 @keyframes fill-text {
     10%,
